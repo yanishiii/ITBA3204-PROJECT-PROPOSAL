@@ -17,3 +17,16 @@ Declaration, pledging to “spare no effort to free our fellow men, women and ch
 Nevertheless, in spite of all the remarkable gains, inequalities have persisted and progress has been uneven. Therefore, the 2030 Agenda for Sustainable Development and its set of Sustainable Development Goals have been committed, as stated in the Declaration of the Agenda, “to build upon the achievements of the Millennium Development Goals and seek to address their unfinished business”. 
 
 The theme of the 2017 High-Level Political Forum was "Eradicating poverty and promoting prosperity in a changing world”", and it included SDG 1 as one of the focus SDGs.
+
+
+
+### Significance of the Proposed Project
+This project will provide a variety of data sets exemplifying poverty in the Philippines. This research will be useful for the following purposes:
+
+To the **Students** who will be needing data that may be found from the project. This will allow them to have a thorough understanding of the Philippines' poverty throughout time.
+
+To the **Teachers** who will be teaching about poverty in the Philippines through the years. The information collected in the project can be utilized in their courses.
+
+To the **Government Officials** who will be needing data that they may use for their future project/s related to poverty. 
+
+To the **Future Researchers** to provide background knowledge concerning poverty in the Philippines. This project's analytics can provide them with new insights, suggestions, and conclusions.
