@@ -3,3 +3,4 @@
 # Project Title: Poverty in the Philippines through the Years
 ***This repository is for our requirement in BAT404 - Analytics Techniques and Tools (IT 3204)***
 
+![PROJECT-MEMBERS](https://user-images.githubusercontent.com/113661252/232320859-3528286b-ae26-444d-8792-fb4a4c62ec27.png)
