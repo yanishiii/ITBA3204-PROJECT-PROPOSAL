@@ -1,0 +1,54 @@
+
+on-card-header {
+    text-align: center;
+
+}
+ion-card{
+    text-align: center;
+    align-items: center;
+    display: block;
+    height: 70%;
+    background: rgba(255,255,255,0)
+    
+}
+ion-img{ 
+    height: 200px;
+    width: auto;
+    padding-top: 30px;
+    display: block;
+
+}
+ion-content {
+    --background: none;
+    background-image: url("../../assets/images/jewerm.png");
+    background-color: #ffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    --keyboard-offset: 0 !important;
+    --overflow:hidden;
+  }
+ion-button{
+    margin: 10px 0 0 0;
+    width: 30%;
+    position: relative;
+    border-radius:10px ;
+    border: 1px solid #ffff;
+}
+ion-button:hover{
+    background-color: #ffff;
+    color:  #C08558;
+    border: 1px solid #C08558;
+}
+ion-item{
+    font-size: 12px;
+}
+ion-item {
+    --padding-start: 0;
+  }
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

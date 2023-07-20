@@ -1,0 +1,44 @@
+
+
+
+
+ion-img{ 
+  height: 200px;
+  width: auto;
+  padding-top: 30px;
+  display: block;
+  margin-bottom: 25%;
+
+}
+ion-content {
+  --background: none;
+  background-image: url("../../assets/images/jewerm.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  --keyboard-offset: 0 !important;
+  --overflow:hidden;
+  
+}
+ion-button{
+  width: 70%;
+  position: relative;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto 20px auto;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+ion-button:hover{
+  background-color: #C08558;
+  color: white;
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 17px 0 rgba(0,0,0,0.19);
+}
+ion-list{
+  height: 50%;
+  background: rgba(255,255,255,0)
+}

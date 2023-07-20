@@ -1,0 +1,123 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    
+    <div class="navheader">
+      <div class="ion-page" id="main-content">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button ></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        
+      </div>
+      <div class="frame">
+        <ion-title size="large" style="margin-left: 30px; margin-top: 10px;">Fetch & Care</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-menu contentId="main-content">
+    <ion-content class="ion-padding">
+      <ion-button class="out" color="rgba(255, 255, 255, 0.00);" routerLink="/home">Log Out</ion-button>
+    </ion-content>
+  </ion-menu>
+  
+    <div class="pettype">
+      <h1>Find the Perfect Match</h1>
+      <p>I'm looking for service for my:</p>
+      <div class="box">
+        <ion-checkbox labelPlacement="end" >Dog</ion-checkbox>
+        <ion-checkbox labelPlacement="end"  style="margin-left: 15px;"> Cat</ion-checkbox>
+      </div>
+    </div>
+    <div class="service">
+      <h2>What service do you need?</h2>
+    </div>
+    <div class="srvc">
+      <div class="grp">
+        <div class="btype">
+          <ion-button class="btn" color="rgba(255, 255, 255, 0.00);">
+            <ion-img class="cn" src="../../assets/images/boarding.png"></ion-img>
+            <h3>Boarding</h3>
+          </ion-button>
+        </div>
+        <div class="btype">
+          <ion-button class="btn" color="rgba(255, 255, 255, 0.00);">
+            <ion-img class="cn" src="../../assets/images/house.png"></ion-img>
+            <h3>House Sitting</h3>
+          </ion-button>
+        </div>
+      </div>
+      <div class="grp">
+        <div class="btype">
+          <ion-button class="btn" color="rgba(255, 255, 255, 0.00);">
+            <ion-img class="cn" src="../../assets/images/drop.png"></ion-img>
+            <h3>Drop-In Visits</h3>
+          </ion-button>
+        </div>
+        <div class="btype">
+          <ion-button class="btn" color="rgba(255, 255, 255, 0.00);">
+            <ion-img class="cn" src="../../assets/images/walking.png"></ion-img>
+            <h3>Dog Walking</h3>
+          </ion-button>
+        </div>
+      </div>
+    </div>  
+    <div class="loc">
+      <h4>What's your address or cross-streets?</h4>
+      <ion-item>
+        <ion-input
+          label="Zip Code or Address"
+          labelPlacement="stacked"
+          [clearOnEdit]="true"
+          placeholder="Enter Zip Code or Address"
+          
+        >
+        </ion-input>
+      </ion-item>
+    </div>
+    <div class="date">
+      <h4>Which Dates do you need?</h4>
+      <div class="drop">
+        <label class="dt">Drop-off</label>
+        <input type="datetime-local"  class="dates"id="drop-off">
+       
+      </div>
+      <div class="drop">
+        <label class="dt">Pick Up</label>
+        <input type="datetime-local"  class="dates"id="pickup">
+      </div>
+    </div>
+    <div class="count">
+      <h5>How many pets?</h5>
+      <div class="pcnt">
+        <ion-button class="a" color="rgba(255, 255, 255, 0.00);">1</ion-button>
+        <ion-button class="a" color="rgba(255, 255, 255, 0.00);">2</ion-button>
+        <ion-button class="a" color="rgba(255, 255, 255, 0.00);">3+</ion-button>
+      </div>
+    </div>
+    <div class="size">
+      <h5>What size are your dogs (lbs)?</h5>
+    </div>
+    <div class="dogw">
+      <ion-button class="b" color="rgba(255, 255, 255, 0.00);">0-15</ion-button>
+      <ion-button class="b" color="rgba(255, 255, 255, 0.00);">16-40</ion-button>
+      <ion-button class="b" color="rgba(255, 255, 255, 0.00);">41-100</ion-button>
+      <ion-button class="b" color="rgba(255, 255, 255, 0.00);">101+</ion-button>
+    </div>
+    <ion-button id="post-alert" class="save" color="rgba(255, 255, 255, 0.00);" >Send Information</ion-button>
+<ion-alert
+  trigger="post-alert"
+  header="Alert"
+  subHeader="Important message"
+  message="Information Sent!"
+  [buttons]="alertButtons"
+></ion-alert>
+  
+</ion-content>
+

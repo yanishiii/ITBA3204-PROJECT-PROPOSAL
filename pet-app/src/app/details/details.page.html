@@ -1,0 +1,71 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    
+    <div class="navheader">
+      <div class="ion-page" id="main-content">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button ></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        
+      </div>
+      <div class="frame">
+        <ion-title size="large" style="margin-left: 30px; margin-top: 10px;">Fetch & Care</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-menu contentId="main-content">
+    <ion-content class="ion-padding">
+      <ion-button class="inb" color="rgba(255, 255, 255, 0.00);" routerLink="/clinbox">Inbox</ion-button>
+      <ion-button class="out" color="rgba(255, 255, 255, 0.00);" routerLink="/home">Log Out</ion-button>
+    </ion-content>
+  </ion-menu>
+  <div class="main">
+    <div class="pettype">
+      <h1>Find the Perfect Match</h1>
+      <p>I'm looking for service for my:</p>
+      <div class="box">
+        <ion-checkbox labelPlacement="end" >Dog</ion-checkbox>
+        <ion-checkbox labelPlacement="end"  style="margin-left: 15px;"> Cat</ion-checkbox>
+      </div>
+    </div>
+    
+    <div class="loc">
+      <h4>What's your address or cross-streets?</h4>
+      <ion-item>
+        <ion-input
+          label="Zip Code or Address"
+          labelPlacement="stacked"
+          [clearOnEdit]="true"
+          placeholder="Enter Zip Code or Address"
+          
+        >
+        </ion-input>
+      </ion-item>
+    </div>
+    <div class="date">
+      <h4>Which Dates do you need?</h4>
+      <div class="drop">
+        <label class="dt">Drop-off</label>
+        <input type="datetime-local"  class="dates"id="drop-off">
+       
+      </div>
+      <div class="drop">
+        <label class="dt">Pick Up</label>
+        <input type="datetime-local"  class="dates"id="pickup">
+      </div>
+    </div>
+    
+    <ion-button class="save"color="rgba(255, 255, 255, 0.00);" routerLink="/search"> Search Information</ion-button>
+  </div>
+
+  
+</ion-content>
+

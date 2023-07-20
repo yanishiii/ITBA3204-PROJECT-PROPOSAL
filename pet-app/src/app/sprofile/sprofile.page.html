@@ -1,0 +1,104 @@
+<ion-header collapse="condense">
+  <ion-toolbar>
+    
+    <div class="navheader">
+      <div class="ion-page" id="main-content">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button ></ion-menu-button>
+            </ion-buttons>
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        
+      </div>
+      <div class="frame">
+        <ion-title size="large" style="margin-left: 30px; margin-top: 10px;">Fetch & Care</ion-title>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-menu contentId="main-content">
+    <ion-content class="ion-padding">
+      <ion-button class="inb" color="rgba(255, 255, 255, 0.00);" routerLink="/clinbox">Inbox</ion-button>
+      <ion-button class="out" color="rgba(255, 255, 255, 0.00);" routerLink="/home">Log Out</ion-button>
+    </ion-content>
+  </ion-menu>
+  <div class="main">
+    <div class="profile">
+      <ion-avatar>
+        <img alt="icon" src="../../assets/images/caton.jpg" />
+      </ion-avatar>
+      <div class="dets">
+        <h1>Catherine Mae G.</h1>
+        <h2>Ibaan, Batangas</h2>
+      </div>
+      <div class="res">
+        <img alt="micon"src="../../assets/images/micon.png">
+        <p class="h3">Response Rate:100%</p>
+      </div>
+      <div class="contact">
+        
+        <ion-button routerLink="/conyani">
+          <ion-icon slot="start" name="call-outline"></ion-icon>
+          Contact Catherine
+        </ion-button>
+        
+      </div>
+      <div class="down">
+        <div class="srvcs">
+          <p class="h4">Services</p>
+          <div class="aa">
+            <div class="hs">
+              <p class="h5">House Sitting</p>
+              <p>In your home</p>
+            </div>
+            <div class="gs">
+              <p class="h6">₱300</p>
+              <p>Per Night</p>
+            </div>
+          </div>
+          <div class="aa">
+            <div class="hs">
+              <p class="h5">Drop-In Visits</p>
+              <p>visits in your home</p>
+            </div>
+            <div class="gs">
+              <p class="h6">₱200</p>
+              <p>Per Visit</p>
+            </div>
+          </div>
+          <div class="aa">
+            <div class="hs">
+              <p class="h5">Dog Walking</p>
+              <p>In your neighborhood</p>
+            </div>
+            <div class="gs">
+              <p class="h6">₱250</p>
+              <p>Per Walk</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fb">
+        <h3>Reviews</h3>
+        <div class="rev">
+          <ion-avatar class="cl">
+            <img alt="icon" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+          </ion-avatar>
+          <p class="n">James Smith</p>
+        </div>
+        <p class="rv">
+         She always does a great job watching our anxious little dog, Iris, when we have to be out of town to see family. We appreciate that she loves our dog as much as we do! Iris always loves to spend time at her home!
+        </p>
+      </div>
+      
+    </div>
+  </div>
+    
+    
+
+</ion-content>

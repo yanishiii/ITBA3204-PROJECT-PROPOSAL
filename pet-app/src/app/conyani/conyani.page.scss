@@ -1,0 +1,309 @@
+ion-header{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #CFD7DE;
+    background: #FFF;
+    position: sticky;
+    flex-direction: column;
+}
+ion-toolbar{
+    display: flex;
+    padding-bottom: 1px;
+    align-items: flex-start;
+    background: #FFF;
+}
+.navheader{
+    width: 300px;
+    height: 50px;
+   
+}
+
+
+.frame{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 250px;
+
+}
+ion-menu-button{
+    color: #C08558;
+}
+.out{
+    color: #fff;
+    font-family: roboto;
+    font-weight: 300;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+ion-title{
+    display: flex;
+    width: 257px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #C08558;
+    font-family: League Spartan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+   
+}
+ion-content {
+    --background: none;
+    background-image: url("../../assets/images/jewerm.png");
+    background-color: #ffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    --keyboard-offset: 0 !important;
+   
+    
+}
+.main{
+    width: 350px;
+    flex-shrink: 0;
+    margin: 0 5px 0 5px;
+}
+.pettype{
+    width:370px;
+}
+h1{
+    color: #1F2124;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+p{
+    color: #404347;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+h2{
+    display: flex;
+    width: 198px;
+    flex-direction: column;
+    justify-content: center;
+    color: #404347;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+.srvc{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.grp{
+    
+    display: flex;
+    height: 80.19px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+.btype{
+    display: flex;
+    padding: 16px 12px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 4px;
+    
+}
+.box{
+    width: 300px;
+}
+
+.cn{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+h3{
+    color: #62686E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+    margin-left: 10px;
+}
+.btn{
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 0px 2px #C9CFD4 inset;
+    border-radius: 10px;
+    width: 130px;
+    height: 80px;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    
+}
+ion-button{
+    
+    background: #C08558;
+    box-shadow: 0px 0px 0px 2px #C9CFD4 inset;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+ion-button:hover{
+    background-color: #FFF;
+    color: black;
+    box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 17px 0 rgba(0,0,0,0.19);
+}
+
+.loc{
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8.18px;
+}
+h4{
+    color: #404347;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    
+}
+
+ion-input{
+    display: flex;
+    padding: 12px 300px 12px 10px;
+    align-items: flex-start;
+    width: 280px;
+}
+.drop{
+    width: 315px;
+    display: flex;
+    padding: 11px 10px;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 2px solid #C9CFD4;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+.dt{
+    color: #404347;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 10px 0 5px;
+}
+
+.dates{
+    height: 50px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.count{
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8.19px;
+}
+h5{
+    color: #404347;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+.pcnt{
+    display: flex;
+    align-items: flex-start;
+    gap: -1px;
+    width: 300px;
+}
+.a{
+    width: 20px;
+    display: flex;
+    min-height: 40px;
+    padding: 10px 50px 10px 50px;
+    align-items: flex-start;
+    border-radius: 4px 0px 0px 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 2px #C9CFD4 inset;
+    color: #404347;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+    text-align: start;
+}
+.dogw{
+    
+    display: flex;
+    align-items: flex-start;
+    gap: -1px;
+    height: 40px;
+    margin-bottom: 30px;
+    
+}
+.b{
+    width: 75px;
+    display: flex;
+    min-height: 40px;
+    padding: 10px 15px 10px 15px;
+    align-items: flex-start;
+    border-radius: 4px ;
+    background: #FFF;
+    color: #404347;
+    box-shadow: 0px 0px 0px 2px #C9CFD4 inset;
+    color: #404347;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.save{
+    margin: 20px 0 20px 0;
+    display: flex;
+    width: 310px;
+    align-items: flex-start;
+    border-radius: 99999px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+
+<ion-content [fullscreen]="true" class="bg">
+  <ion-img src="assets/images/yani.png"></ion-img>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Log In</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+      <ion-input fill="outline" placeholder="Email" type="email"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+      <ion-input fill="outline" placeholder="Password" type="password"></ion-input>
+      </ion-item>
+      
+    </ion-card-content>
+    <a routerLink="/clogin"  queryParamsHandling="merge">Log in as Sitter</a><br>
+    <ion-button color="#C08558" routerLink="/details" >Login</ion-button>
+  </ion-card>
+</ion-content>
